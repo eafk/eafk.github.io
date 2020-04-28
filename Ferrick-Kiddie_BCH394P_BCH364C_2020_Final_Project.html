@@ -2529,6 +2529,7 @@ miRxplore_fastqc_PerBaseSeqContent = rbind(NTT60.1_14_1_fastqc_PerBaseSeqContent
   mutate(Fraction = case_when(Read == &quot;Read 1&quot; ~ Frequency/100,
                               Read == &quot;Read 2&quot; ~ Frequency/100))
 
+# This graph shows the biased sequence output of the miRNA library, with the nucleotide frequencies showing which nucleotides are overrepresented vs underrepresented at each nucleotide position (showing just the first and last 10 positions).
 miRxplore_fastqc_PerBaseSeqContent %&gt;% 
   filter(`Base Position` &lt; 11 &amp; Read == &quot;Read 1&quot; | `Base Position` &gt; -11 &amp; Read == &quot;Read 2&quot; ) %&gt;% 
   ggplot(aes(x= `Base Position`, y= Fraction, color= Base))+
@@ -2558,7 +2559,7 @@ miRxplore_expected_reindex = miRxplore_expected %&gt;%
   mutate(Read = case_when(`Base Position` &gt; 0 ~ &quot;Read 1&quot;,
                           `Base Position` &lt; 0 ~ &quot;Read 2&quot;))
 
-# here is the expected nucleotide frequency of the input RNA sample
+# here is the expected nucleotide frequency of the input miRNA sample (each miRNA is added at an equivalent amount)
 miRxplore_expected_reindex %&gt;% 
   ggplot(aes(x = `Base Position`, y = `Expected Frequency`, color = Base))+
   geom_line()+
@@ -2589,6 +2590,7 @@ miRxplore_counts_NTT = miRxplore_counts%&gt;%
   full_join(miRxplore_scored_list) %&gt;% 
   mutate(`Average Gene Expression` = rowMeans(select(., NTT60.1, G.NTT1, G.NTT2)))
 
+# This graph shows the comparison of the predictive score versus the observed average gene expression from the 3 replicate libraries.
 graph = miRxplore_counts_NTT %&gt;% 
   ggplot(aes(x = `Average Gene Expression`, y = Score, label = ID))+
   geom_point()+
