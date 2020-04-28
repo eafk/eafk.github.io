@@ -2475,8 +2475,8 @@ with open('tRF_v_miR_scored_list.txt', 'w') as outFile:
     for i in range(len(seqLoL)):
         outFile.write(seqLoL[i][0] + '\t' + str(evalScoreList[i]) + '\n')</code></pre>
 </div>
-<div id="r-script" class="section level3">
-<h3>R Script</h3>
+<div id="r-script-and-graphs" class="section level3">
+<h3>R Script (and graphs)</h3>
 <p>I performed all my dataframe manipulations and data visualization using the R script below. Sometimes I would manipulate the data in R, to output to a text file, that would be read into python for the implementation of the scoring method.</br></br></p>
 <pre class="r"><code># this script is taking data from a miRxplore RNA-seq
 # I ran fastqc on the raw data, and extracted the Per Base Sequence Content
