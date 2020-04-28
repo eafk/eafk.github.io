@@ -41,3 +41,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Test out this html link
 [tRFdb paper](tRFdb_paper_questions.html)
+
+### Project link
+[BCH394P_BCH364C_2020_Final_Project](Ferrick-Kiddie_BCH394P_BCH364C_2020_Final_Project.html)
