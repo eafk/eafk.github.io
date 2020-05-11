@@ -45,5 +45,5 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Project link
 [BCH394P_BCH364C_2020_Final_Project](Ferrick-Kiddie_BCH394P_BCH364C_2020_Final_Project.html)
 
-### tRFdb tutorial (part2)
+### tRFdb tutorial (Part2)
 [tRFdb Tutorial (Part2)](tRFdb_tutorial_part2.html)
