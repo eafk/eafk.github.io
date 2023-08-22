@@ -1,7 +1,7 @@
 ### Resume
 add later
 
-### LinkedIN profile
+### LinkedIn profile
 [Elizabeth Ferrick Kiddie](https://www.linkedin.com/in/elizabeth-ferrick-kiddie-76ba6934/)
 
 ### Bioinformatics Course Final Project
