@@ -3,7 +3,7 @@ Molecular biologist with over a decade of experience in experimental techniques 
 ### LinkedIn profile
 [Elizabeth Ferrick Kiddie](https://www.linkedin.com/in/elizabeth-ferrick-kiddie-76ba6934/)
 
-### My pre-print manuscript
+### My pre-print manuscript detailing the diagnostic potential of a T-cell receptor pre-mRNA fragment detected by a novel RT-PCR/Cas12a assay
 [Ferrick-Kiddie, E. A. et al. High-throughput assay confirmation of a T-cell receptor pre-mRNA fragment as a blood-based inflammatory breast cancer biomarker. 2025.08.19.25333925 Preprint at https://doi.org/10.1101/2025.08.19.25333925 (2025).](https://www.medrxiv.org/content/10.1101/2025.08.19.25333925v1)
 
 ### My final project for a Bioinformatics Course- detailing how to visualize tRNA fragments from RNA-seq libraries
